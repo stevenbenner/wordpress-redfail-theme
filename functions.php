@@ -95,7 +95,10 @@ function print_comment($comment, $args, $depth) {
 
 				</div>
 
+				<div id="comment-content">
 				<?php comment_text() ?>
+
+				</div>
 
 				<div class="reply">
 					<?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
@@ -109,6 +112,7 @@ function print_trackback($comment, $args, $depth) {
 	$GLOBALS['comment'] = $comment; ?>
 		<li class="trackback">
 			<?php comment_author_link() ?>
+
 		<?php
 }
 
