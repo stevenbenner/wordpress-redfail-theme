@@ -10,37 +10,48 @@ var date='<a href="https://twitter.com/'+item.from_user+'/statuses/'+item.id+'" 
 var _gaq = [['_setAccount', 'UA-327'+'5918-2'], ['_trackPageview']];
 
 $(function() {
-	(function(d) {
-		var ga = d.createElement('script');
-		ga.type = 'text/javascript';
-		ga.async = true;
-		ga.src = 'http://www.google-analytics.com/ga.js';
-		var s = d.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(ga, s);
-	})(document);
+	// add google analytics
+	var ga = document.createElement('script'),
+		s = document.getElementsByTagName('script')[0];
+	ga.type = 'text/javascript';
+	ga.async = true;
+	ga.src = 'http://www.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(ga, s);
+
 	$('#tweets').tweet({
 		count: 3,
 		query: 'from%3Astevenbenner',
 		loading_text: 'searching twitter...'
 	});
+
+	// ga click tracking
 	$('#social-links a').on('click', function() {
-		var className = $(this).attr('class');
-		var network = 'Unknown';
-		var action = 'share';
-		if (className === 'facebook-link') {
+		var className = $(this).attr('class'),
+			network = 'Unknown',
+			action = 'share';
+
+		switch (className) {
+		case 'facebook-link':
 			network = 'Facebook';
-		} else if (className === 'twitter-link') {
+			break;
+		case 'twitter-link':
 			network = 'Twitter';
-			action = 'tweet'
-		} else if (className === 'delicious-link') {
+			action = 'tweet';
+			break;
+		case 'delicious-link':
 			network = 'Delicious';
-		} else if (className === 'stumbleupon-link') {
+			break;
+		case 'stumbleupon-link':
 			network = 'StumbleUpon';
-		} else if (className === 'digg-link') {
+			break;
+		case 'digg-link':
 			network = 'Digg';
-		} else if (className === 'reddit-link') {
+			break;
+		case 'reddit-link':
 			network = 'Reddit';
-		};
+			break;
+		}
+
 		_gaq.push(['_trackEvent', 'Share Buttons', network, document.location.href]);
 		_gaq.push(['_trackSocial', network.toLowerCase(), socialAction]);
 	});
