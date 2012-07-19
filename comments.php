@@ -108,6 +108,9 @@ if ( have_comments() ) {
 
 	</div>
 
+
+<?php endif; // if you delete this the sky will fall on your head ?>
+
 <?php if ( $has_comments && !empty($comments_by_type['pings']) ) : ?>
 	<!-- pingbacks and trackbacks -->
 
@@ -120,6 +123,3 @@ if ( have_comments() ) {
 	</ul>
 
 <?php endif; ?>
-
-
-<?php endif; // if you delete this the sky will fall on your head ?>
