@@ -31,6 +31,6 @@
 
 </body>
 
-<!-- $ <?php echo $_SERVER['REQUEST_URI']; ?> - <?php echo get_num_queries(); ?> - <?php echo timer_stop(0, 5); ?> - <?php echo date(DATE_RFC822); ?> $ -->
+<!-- $ <?php echo $_SERVER['REQUEST_URI']; ?> - <?php echo get_num_queries(); ?> - <?php echo timer_stop(0, 5); ?> - <?php echo date(DATE_W3C); ?> $ -->
 
 </html>
