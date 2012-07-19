@@ -6,7 +6,7 @@
 	<?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?>
 
 </title>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+<?php versioned_stylesheet($GLOBALS['TEMPLATE_RELATIVE_URL'].'style.css'); ?>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('wpurl'); ?>/favicon.ico" />
 <?php

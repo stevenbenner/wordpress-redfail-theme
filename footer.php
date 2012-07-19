@@ -27,7 +27,7 @@
 
 	<!-- global scripts -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php echo JS_FOLDER.'/scripts.js'; ?>"></script>
+	<?php versioned_javascript($GLOBALS['TEMPLATE_RELATIVE_URL'].'js/scripts.js'); ?>
 
 </body>
 
