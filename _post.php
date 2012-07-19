@@ -63,7 +63,7 @@ if (have_posts()) :
 
 			<?php if(is_single()):?>
 
-				<?php wp_related_posts(); ?>
+				<?php if(function_exists('wp_related_posts')) wp_related_posts(); ?>
 
 				<p>
 					By: <span class="author vcard"><a class="url fn" href="http://stevenbenner.com/" rel="author">Steven Benner</a></span><br />
