@@ -763,13 +763,8 @@ a#header-subscribe-link {
 	display: none;
 }
 /* Twitter JavaScript Widget */
-#footer .tweet_even, #footer .tweet_odd {
+#tweets li {
 	margin-bottom: 20px;
-	line-height: 20px;
-}
-
-.tweettime {
-	display: none;
 }
 /* Contact Form */
 .wpcf7-validation-errors {
