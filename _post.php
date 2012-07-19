@@ -65,9 +65,9 @@ if (have_posts()) :
 
 				<?php if(function_exists('wp_related_posts')) wp_related_posts(); ?>
 
-				<p>
+				<p id="byline">
 					By: <span class="author vcard"><a class="url fn" href="http://stevenbenner.com/" rel="author">Steven Benner</a></span><br />
-					Last modified: <abbr class="updated" title="<?php the_modified_date('c') ?>"><?php the_modified_date('F jS, Y') ?></abbr>
+					Updated: <abbr class="updated" title="<?php the_modified_date('c') ?>"><?php the_modified_date('M jS, Y') ?></abbr>
 				</p>
 
 			<?php endif; ?>

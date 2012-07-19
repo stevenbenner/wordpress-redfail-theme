@@ -422,6 +422,16 @@ img.alignright {
 	margin: 5px 10px 10px 0;
 }
 
+#content #byline {
+	font-size: 10px;
+	color: #666;
+	line-height: 14px;
+	margin-top: 25px;
+}
+#content #byline a, #content #byline a:link {
+	color: #666;
+}
+
 /** COMMENTS **/
 ol.commentlist, ol.commentlist .children {
 	list-style-type: none;
