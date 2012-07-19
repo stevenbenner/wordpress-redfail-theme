@@ -1,11 +1,4 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
-
-get_header();
-?>
+<?php get_header(); ?>
 
 	<div id="content-main" class="post">
 
@@ -32,8 +25,7 @@ get_header();
 		<script type="text/javascript" src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 
 		<p style="color:#999;font-size:10px;line-height:12px;text-align:right;margin-top:80px;">
-			404 File Not Found<br />
-			The requested URL <? echo(getenv("REQUEST_URI")); ?> was not found on this server
+			404 File Not Found
 		</p>
 
 	</div>
