@@ -44,7 +44,7 @@ h1 a:hover, h2 a:hover {
 h1 {
 	margin-bottom: 4px;
 	font-size: 30px;
-	text-shadow: #888 -1px -1px, #000 1px 1px;
+	text-shadow: #000 1px 1px;
 }
 
 h2 {
