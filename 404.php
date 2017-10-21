@@ -13,14 +13,14 @@
 		<p><b>Please try the following:</b></p>
 		<ul>
 			<li>If you typed the page address in the Address bar, make sure that it is spelled correctly.</li>
-			<li>Open the <a href="http://stevenbenner.com/" title="Home Page">StevenBenner.com</a> home page and look for links to the information you want.</li>
+			<li>Open the <a href="/" title="Home Page">StevenBenner.com</a> home page and look for links to the information you want.</li>
 			<li>Use the navigation bar above to find the link you are looking for.</li>
 			<li>Click the Back button to try another link.</li>
 			<li>Use the site search form in the upper right.</li>
 		</ul>
 		<script type="text/javascript">
 			var GOOG_FIXURL_LANG = 'en';
-			var GOOG_FIXURL_SITE = 'http://stevenbenner.com'
+			var GOOG_FIXURL_SITE = 'https://stevenbenner.com'
 		</script>
 		<script type="text/javascript" src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 

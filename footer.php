@@ -13,7 +13,7 @@
 		<p id="sub-footer-cite">
 			Steven Benner's Blog is proudly powered by <a href="https://wordpress.org/" rel="nofollow">WordPress</a><br />
 			Social media icons provided by <a href="http://icondock.com/" rel="nofollow">IconDock</a><br />
-			Please subscribe to my <a href="http://stevenbenner.com/feed/">Entries (RSS)</a>
+			Please subscribe to my <a href="/feed/">Entries (RSS)</a>
 		</p>
 		<div id="copyright-image">
 			<a href="https://creativecommons.org/licenses/by-sa/3.0/us/" rel="license nofollow"><img src="<?php echo IMAGE_FOLDER.'/cc_by-sa_88x31.png'; ?>" width="88" height="31" alt="Creative Commons License" /></a>
