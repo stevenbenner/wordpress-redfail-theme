@@ -93,10 +93,10 @@ if (have_posts()) :
 						<li><a href="https://twitter.com/?status=<?php the_permalink(); ?>+via+@stevenbenner" class="twitter-link" rel="nofollow">Retweet</a></li>
 						<?php endif; ?>
 
-						<li><a href="http://del.icio.us/post?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="delicious-link" rel="nofollow">Bookmark</a></li>
-						<li><a href="http://www.stumbleupon.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="stumbleupon-link" rel="nofollow">Vote up</a></li>
-						<li><a href="http://digg.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="digg-link" rel="nofollow">Digg</a></li>
-						<li><a href="http://reddit.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="reddit-link" rel="nofollow">Reddit</a></li>
+						<li><a href="https://del.icio.us/post?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="delicious-link" rel="nofollow">Bookmark</a></li>
+						<li><a href="https://www.stumbleupon.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="stumbleupon-link" rel="nofollow">Vote up</a></li>
+						<li><a href="https://digg.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="digg-link" rel="nofollow">Digg</a></li>
+						<li><a href="https://reddit.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="reddit-link" rel="nofollow">Reddit</a></li>
 					</ul>
 				</div>
 

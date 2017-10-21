@@ -22,7 +22,7 @@
 			var GOOG_FIXURL_LANG = 'en';
 			var GOOG_FIXURL_SITE = 'http://stevenbenner.com'
 		</script>
-		<script type="text/javascript" src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+		<script type="text/javascript" src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 
 		<p style="color:#999;font-size:10px;line-height:12px;text-align:right;margin-top:80px;">
 			404 File Not Found
