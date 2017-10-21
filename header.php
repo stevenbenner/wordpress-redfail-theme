@@ -46,7 +46,7 @@ if ( is_singular() )
 			<div id="pages">
 				<ul>
 					<li class="page_item"><a class="home" href="<?php echo get_settings('home'); ?>/" title="Home">Home</a></li>
-					<?php 
+					<?php
 					$frontpage_id = get_option('page_on_front');
 					wp_list_pages('sort_column=menu_order&exclude='.$frontpage_id.'&depth=1&title_li=');
 					?>

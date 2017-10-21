@@ -33,7 +33,7 @@ if (have_posts()) :
 			<<?php echo($heading); ?> class="entry-title"><?php if(!is_single()):?><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php endif; ?><?php the_title(); ?><?php if(!is_single()):?></a><?php endif; ?></<?php echo($heading); ?>>
 			<div class="postmetadata" style="overflow:hidden;">
 				<span class="post-meta-info">
-					<abbr class="published" title="<?php the_time('c') ?>"><?php the_time('F jS, Y') ?></abbr> 
+					<abbr class="published" title="<?php the_time('c') ?>"><?php the_time('F jS, Y') ?></abbr>
 					&ndash;
 					<?php the_category(', ') ?>
 
