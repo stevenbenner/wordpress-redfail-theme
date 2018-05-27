@@ -526,6 +526,7 @@ ol.commentlist .children .comment {
 
 .comment p, .pingback p {
 	margin-top: 5px;
+	word-wrap: break-word;
 }
 
 .comment .comment {
