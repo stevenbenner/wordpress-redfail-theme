@@ -104,9 +104,6 @@ $(function() {
 		case 'delicious-link':
 			network = 'Delicious';
 			break;
-		case 'stumbleupon-link':
-			network = 'StumbleUpon';
-			break;
 		case 'digg-link':
 			network = 'Digg';
 			break;

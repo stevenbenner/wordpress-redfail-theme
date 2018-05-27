@@ -94,7 +94,6 @@ if (have_posts()) :
 						<?php endif; ?>
 
 						<li><a href="https://del.icio.us/post?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="delicious-link" rel="nofollow">Bookmark</a></li>
-						<li><a href="https://www.stumbleupon.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="stumbleupon-link" rel="nofollow">Vote up</a></li>
 						<li><a href="https://digg.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="digg-link" rel="nofollow">Digg</a></li>
 						<li><a href="https://reddit.com/submit?url=<?php the_permalink(); ?>&title=<?php echo(urlencode(get_the_title())); ?>" class="reddit-link" rel="nofollow">Reddit</a></li>
 					</ul>

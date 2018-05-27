@@ -640,16 +640,12 @@ a#header-subscribe-link {
 #social-links a {
 	display: block;
 	padding-top: 32px;
-	width: 102px;
+	width: 123px;
 	margin-right: 10px;
 }
 
 .twitter-link {
 	background-position: center -64px;
-}
-
-.stumbleupon-link {
-	background-position: center -176px;
 }
 
 .digg-link {
