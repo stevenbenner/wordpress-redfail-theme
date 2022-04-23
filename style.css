@@ -678,19 +678,7 @@ a#header-subscribe-link {
 .widget_tag_cloud div {
 	padding: 0 10px;
 }
-/* Twitter Widget Pro */
-.entry-meta {
-	font-size: 11px;
-	display: block;
-}
 
-.entry-meta a {
-	color: #666 !important;
-}
-
-.from-meta {
-	display: none;
-}
 /* SyntaxHighlighter Evolved */
 #content-main .syntaxhighlighter, #content-main .syntaxhighlighter code {
 	font-size: 13px !important;
@@ -759,10 +747,7 @@ a#header-subscribe-link {
 .wp-pagenavi .pages {
 	display: none;
 }
-/* Twitter JavaScript Widget */
-#tweets li {
-	margin-bottom: 20px;
-}
+
 /* Contact Form */
 .wpcf7-validation-errors {
 	border: 3px solid #EDEF0E;
