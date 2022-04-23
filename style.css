@@ -694,7 +694,7 @@ a#header-subscribe-link {
 	margin-top: 40px;
 }
 
-.wp-pagenavi a, .wp-pagenavi .current, #submit, .wpcf7-submit, #searchsubmit, #goog-wm-sb {
+.wp-pagenavi a, .wp-pagenavi .current, #submit, .wpcf7-submit, #searchsubmit {
 	background-color: #800;
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAyCAYAAACd+7GKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE9JREFUeNqczksOgCAMhOEWReMjEI3ex/sfyuq/IYEEFmy+TCezqJrZ40TEEpKfBW+z60z1if7/3XDBCQdECLDDBissMMMEHkYYwCX0E2AAJY1X4Tmgv0cAAAAASUVORK5CYII=');
 	*background-image: url(images/button_bg.png);
@@ -717,7 +717,7 @@ a#header-subscribe-link {
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-#submit, .wpcf7-submit, #searchsubmit, #goog-wm-sb {
+#submit, .wpcf7-submit, #searchsubmit {
 	background-color: #347C2C;
 	cursor: pointer;
 	font-size: 13px;
@@ -727,12 +727,8 @@ a#header-subscribe-link {
 	padding: 2px 7px;
 }
 
-#submit:hover, .wpcf7-submit:hover, #searchsubmit:hover, #goog-wm-sb:hover {
+#submit:hover, .wpcf7-submit:hover, #searchsubmit:hover {
 	background-color: #4CAF41;
-}
-/* google search 404 */
-#goog-wm-qt {
-	margin-right: 5px;
 }
 
 .wp-pagenavi a:hover {

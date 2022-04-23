@@ -18,11 +18,6 @@
 			<li>Click the Back button to try another link.</li>
 			<li>Use the site search form in the upper right.</li>
 		</ul>
-		<script type="text/javascript">
-			var GOOG_FIXURL_LANG = 'en';
-			var GOOG_FIXURL_SITE = 'https://stevenbenner.com'
-		</script>
-		<script type="text/javascript" src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 
 		<p style="color:#999;font-size:10px;line-height:12px;text-align:right;margin-top:80px;">
 			404 File Not Found
