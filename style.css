@@ -364,14 +364,12 @@ img.alignright {
 }
 
 .post-meta-info {
-	display: inline-block;
 	width: 560px;
 	float: left;
 }
 
 .post-comment-link {
 	float: right;
-	display: inline-block;
 	text-align: right;
 	width: 100px;
 }
