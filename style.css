@@ -643,6 +643,7 @@ a#header-subscribe-link {
 /* SyntaxHighlighter Evolved */
 #content-main .syntaxhighlighter, #content-main .syntaxhighlighter code {
 	font-size: 12px !important;
+	padding-bottom: 2px;
 }
 
 /* WP-PageNavi */
