@@ -642,8 +642,9 @@ a#header-subscribe-link {
 
 /* SyntaxHighlighter Evolved */
 #content-main .syntaxhighlighter, #content-main .syntaxhighlighter code {
-	font-size: 13px !important;
+	font-size: 12px !important;
 }
+
 /* WP-PageNavi */
 .wp-pagenavi {
 	overflow: hidden;
