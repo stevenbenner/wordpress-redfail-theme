@@ -11,7 +11,7 @@
 	<!-- sub footer -->
 	<div id="sub-footer">
 		<p id="sub-footer-cite">
-			Steven Benner's Blog is powered by <a href="https://wordpress.org/" rel="nofollow">WordPress</a><br />
+			<?php bloginfo('name'); ?> is powered by <a href="https://wordpress.org/" rel="nofollow">WordPress</a><br />
 			Social media icons provided by IconDock<br />
 			Please subscribe to my <a href="/feed/">Entries (RSS)</a>
 		</p>
