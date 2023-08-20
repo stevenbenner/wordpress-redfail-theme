@@ -16,7 +16,7 @@
 			Please subscribe to my <a href="/feed/">Entries (RSS)</a>
 		</p>
 		<div id="copyright-image">
-			<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow"><img src="<?php echo IMAGE_FOLDER.'/cc_by-sa_88x31.png'; ?>" width="88" height="31" alt="Creative Commons License" /></a>
+			<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow"><img src="<?php echo IMAGE_FOLDER.'/cc_by-sa_88x31.png'; ?>" width="88" height="31" alt="Creative Commons BY-SA License Logo" /></a>
 		</div>
 		<p id="copyright">
 			Copyright 2009-<?php echo(date('Y')); ?> Steven Benner. Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license nofollow">Creative Commons Attribution-ShareAlike 4.0 International license</a>.
