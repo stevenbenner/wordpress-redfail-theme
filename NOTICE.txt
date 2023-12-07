@@ -1,0 +1,13 @@
+Copyright 2023 Steven Benner
+
+This project incorporates work covered by the following copyright and
+permission notices:
+
+  Copyright 2012 WordPress.org
+
+and
+
+  Vector Social Media Icons Pack from IconDock
+  http:// icondock .com /free/vector-social-media-icons
+  (White space intentionally added to break link. This site has since gone
+  down and the domain has been resold. Do not trust that domain anymore.)
